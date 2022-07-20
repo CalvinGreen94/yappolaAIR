@@ -3,6 +3,7 @@ const properties = [
         key: 1,
         // imageUrl: 'videos/TaurosCard.mp4',
         // imageAlt: 'TAUROS Card',
+        imageUrl: "https://yappola.com/wp-content/uploads/2021/09/187395541_103920958553351_7346794580974644694_n-scaled.jpg",
         title: 'Yappola Air MEMBERSHIP CARD',
         salePrice: 'Sale: 0.5 ETH',
         Amenities:'Free Parking, Swimming Pool',
@@ -13,6 +14,7 @@ const properties = [
     {
         key: 2,
         // imageUrl: 'videos/Estate.mp4',
+        imageUrl:  "https://yappola.com/wp-content/uploads/2021/09/187395541_103920958553351_7346794580974644694_n-scaled.jpg",
         imageAlt: 'Estate Animation',
         title: 'Yappola Air MEMBERSHIP CARD',
         presalePrice: 'Presale: 0.5 ETH',

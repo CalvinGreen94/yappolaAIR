@@ -10,7 +10,7 @@ export default function ProductModal({ isOpen, onClose, modalData }) {
       <ModalOverlay />
       <ModalContent rounded="xl">
         <ModalCloseButton />
-        <ModalHeader>{title == "MERCA CITY ESTATE" ? "dNFT Details" : "NFT Details"}</ModalHeader>
+        <ModalHeader>{title == "YappolaAir" ? "dNFT Details" : "NFT Details"}</ModalHeader>
         <ModalBody>
         <Grid
           height={{base: "140", md: "125"}}
