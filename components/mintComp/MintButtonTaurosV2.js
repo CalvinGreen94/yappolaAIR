@@ -871,7 +871,7 @@ export default function MBY() {
       "type": "function"
     }
   ]
-  
+
   useEffect(() => {
     if (isAuthenticated) {
 
@@ -883,7 +883,7 @@ export default function MBY() {
     let options = {
       msgValue: Moralis.Units.ETH("0.2"),
       contractAddress: '0xd57420A503bBE67d74BB2e1f4d6f83429B8396D1',
-      functionName: 'claimMembership',
+      functionName: 'mintNFTs',
       abi: ABI,
       params: {
         _count: 1 * amount,
