@@ -25,15 +25,16 @@ export default function Home() {
       </Head>
 
       <Heading pb={10} fontSize="3xl" textShadow='0.5px 0.5px white'>
-        Welcome to YappolaAir
+        Welcome To YappolaAir <br /><br />
+        <span style={{color: "black", fontWeight: "200"}}>Taking to the Skies</span>
       </Heading>
 
       <Text pt={5}>
-        What is YappolaAir<Link href="https://www.yappola.com/" target="_blank" rel="noreferrer" style={{color: "black", fontWeight: "500"}}>Yappola</Link>. For purposes of governance and other membership privileges, members need to hold at least one <span style={{color: "black", fontWeight: "500"}}>YappolaAir</span> token.
+      <Link href="https://www.yappola.com/" target="_blank" rel="noreferrer" style={{color: "black", fontWeight: "500"}}>YappolaAir DAO</Link> will be utilized for purposes of governance and contributing to future membership events. Members need to hold at least one <span style={{color: "black", fontWeight: "500"}}>YappolaAir</span> token to be able to attend events.
         <br /><br />
-        <span style={{color: "black", fontWeight: "500"}}>YappolaAir Vacation DAO</span> Become a Member of the global vacation community<span style={{color: "black", fontWeight: "500"}}> Hosting Applications</span>  are available for submission&apos;.
+        <span style={{color: "black", fontWeight: "500"}}>To Become a Member</span> of the global YappolaAir community,<span style={{color: "black", fontWeight: "500"}}> please Purchase a YappolaAir DAO and you will also be able to vote on the future of YappolaAir DAO using the Yappola native ERC20 token.</span> &apos;.
         <br /><br />
-        The Future of Vacations
+        
       </Text>
 
       <TableContainer maxW={550} mt={10}>
@@ -77,16 +78,19 @@ export default function Home() {
           />
       </Box>
 
-      <Heading pb={5} fontSize="3xl" textShadow='0.5px 0.5px white'>
+      {/* <Heading pb={5} fontSize="3xl" textShadow='0.5px 0.5px white'>
         YappolaAir
-      </Heading>
+      </Heading> */}
 
       <Text>
-        Thank you for choosing YappolaAir as your ERC721 Booking service
+        Thank you for choosing YappolaAir as your ERC721 Membership service.
         <br /><br />
-        If you have any questions or concerns please reach out to us. Soon to take to the skies .
+        If you have any questions or concerns please reach out to us.
         <br /><br />
-        <span style={{color: "black", fontWeight: "500"}}>Genesis Assets</span> Initital Holders will receive loyalty rewards in YappolaAir ERC20 tokens &apos; This will also Be a way users can exchange digital currency for real world experiences. &apos; YappolaAir is the future of group vacations.
+        <span style={{color: "black", fontWeight: "500"}}>Genesis Assets:</span> Initital Holders will receive loyalty rewards in YappolaAir ERC20 tokens &apos; <br />
+        Genesis assets will utilize a way users can exchange YappolaAir native token for real world experiences.  
+        <span style={{color: "black", fontWeight: "500"}}> <br /><br />
+        <Link href="/about">Please Read About For More Information</Link> </span>
       </Text>
     </Box>
   );
