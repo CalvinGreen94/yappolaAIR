@@ -32,7 +32,7 @@ export default function Home() {
       <Text pt={5}>
       <Link href="https://www.yappola.com/" target="_blank" rel="noreferrer" style={{color: "black", fontWeight: "500"}}>YappolaAir DAO</Link> will be utilized for purposes of governance and contributing to future membership events. Members need to hold at least one <span style={{color: "black", fontWeight: "500"}}>YappolaAir</span> token to be able to attend events.
         <br /><br />
-        <span style={{color: "black", fontWeight: "500"}}>To Become a Member</span> of the global YappolaAir community,<span style={{color: "black", fontWeight: "500"}}> please Purchase a YappolaAir DAO and you will also be able to vote on the future of YappolaAir DAO using the Yappola native ERC20 token.</span>.
+        <span style={{color: "black", fontWeight: "500"}}>To Become a Member</span> of the global YappolaAir community,<span style={{color: "black", fontWeight: "500"}}> please purchase a YappolaAir DAO and you will also be able to vote on the future of YappolaAir DAO using the Yappola native ERC20 token.</span>.
         <br /><br />
         <span style={{color: "black", fontWeight: "500"}}>Genesis Assets:</span> Initital holders will receive loyalty rewards in YappolaAir ERC20 tokens <br />
         Genesis assets are implemented so that way users can exchange YappolaAir native token for real world experiences.  
