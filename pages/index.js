@@ -34,7 +34,8 @@ export default function Home() {
         <br /><br />
         <span style={{color: "black", fontWeight: "500"}}>To Become a Member</span> of the global YappolaAir community,<span style={{color: "black", fontWeight: "500"}}> please Purchase a YappolaAir DAO and you will also be able to vote on the future of YappolaAir DAO using the Yappola native ERC20 token.</span> &apos;.
         <br /><br />
-        
+        <span style={{color: "black", fontWeight: "500"}}>Genesis Assets:</span> Initital Holders will receive loyalty rewards in YappolaAir ERC20 tokens &apos; <br />
+        Genesis assets will utilize a way users can exchange YappolaAir native token for real world experiences.  
       </Text>
 
       <TableContainer maxW={550} mt={10}>
@@ -87,8 +88,6 @@ export default function Home() {
         <br /><br />
         If you have any questions or concerns please reach out to us.
         <br /><br />
-        <span style={{color: "black", fontWeight: "500"}}>Genesis Assets:</span> Initital Holders will receive loyalty rewards in YappolaAir ERC20 tokens &apos; <br />
-        Genesis assets will utilize a way users can exchange YappolaAir native token for real world experiences.  
         <span style={{color: "black", fontWeight: "500"}}> <br /><br />
         <Link href="/about">Please Read About For More Information</Link> </span>
       </Text>
