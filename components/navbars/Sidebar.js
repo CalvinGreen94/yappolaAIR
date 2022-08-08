@@ -29,7 +29,7 @@ export default function Sidebar({ onClose, ...rest }) {
     >
       <Flex h="20" alignItems="center" justifyContent="space-between" mb={20}>
         <Box display={{ base: "none", md: "flex" }}>
-          {/* <Image src="images/TaurosDAO_logo.png" alt="TaurosDAO-logo" w="200px" h="65px" /> */}
+          <Image src="../public/images/yappola.png" alt="yappola" w="200px" h="65px" />
         </Box>
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>

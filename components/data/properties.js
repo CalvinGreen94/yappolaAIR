@@ -1,12 +1,12 @@
 const properties = [
     {
         key: 1,
-        // imageUrl: 'videos/TaurosCard.mp4',
-        // imageAlt: 'TAUROS Card',
-        imageUrl: "https://yappola.com/wp-content/uploads/2021/09/187395541_103920958553351_7346794580974644694_n-scaled.jpg",
+        imageUrl: '../../public/images/yappola.jpg',
+        imageAlt: 'Yappola Card',
+        // imageUrl: "",
         title: 'Yappola Air MEMBERSHIP CARD',
         salePrice: 'Sale: 0.2 ETH',
-        Amenities:'Lex Luger afterparty',
+        Amenities:'Lex Luger , Waka Flocka Flame, Juicy J',
         info: "ℹ",
         href: '/tauros',
         description: (<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>)
@@ -14,7 +14,7 @@ const properties = [
     {
         key: 2,
         // imageUrl: 'videos/Estate.mp4',
-        imageUrl:  "https://yappola.com/wp-content/uploads/2021/09/187395541_103920958553351_7346794580974644694_n-scaled.jpg",
+        imageUrl:  "../../public/images/yappola.jpg",
         imageAlt: 'Estate Animation',
         title: 'Yappola Air MEMBERSHIP CARD',
         // presalePrice: 'Presale: 0.2 ETH',

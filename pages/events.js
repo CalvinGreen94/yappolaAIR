@@ -23,28 +23,48 @@ export default function EventsPage() {
                 <List py={5} ml={5} spacing="2">
                     <ListItem>
                         <ListIcon as={ImEarth} />
-                        Event 1 (Las Vegas)
+                        Event 1 <br />
+                        Location: Virginia Beach, Virginia <br />
+                        Artists: Lex Luger, Juicy J, Waka Flocka Flame
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                     <ListItem spacing={3}>
                         <ListIcon as={ImEarth} />
                         Event 2 (California)
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                     <ListItem spacing={3}>
                         <ListIcon as={ImEarth} />
                          Event 3 (Florida)
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                     <ListItem spacing={3}>
                         <ListIcon as={ImEarth} />
                         Event 4 (New York)
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                     <ListItem spacing={3}>
                         <ListIcon as={ImEarth} />
                         Event 5 (Arizona)
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                     <ListItem spacing={3}>
                         <ListIcon as={ImEarth} />
                         Event 6 (Wen Moon)
                     </ListItem>
+                    <br />
+                    <br />
+                    <br />
                 </List>
 {/* 
             <Text>
