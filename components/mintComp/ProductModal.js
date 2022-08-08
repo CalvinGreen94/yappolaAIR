@@ -39,7 +39,7 @@ export default function ProductModal({ isOpen, onClose, modalData }) {
                     height={250}
                   />
           </GridItem>
-          <GridItem rowSpan={2} colSpan={4} boxShadow="inner" pl="4" rounded="2xl" textColor="teal.700" textShadow='0.5px 0.5px gray'>
+          <GridItem rowSpan={2} colSpan={4} boxShadow="inner" pl="4" rounded="2xl" textColor="purple.300" textShadow='0.5px 0.5px gray'>
             <Box fontSize={{base: "14px", md: "20px"}} fontWeight="semibold">{title}</Box>
             <Box fontWeight="light" fontSize={{base: "13px", md: "18px"}}>
               {/* <Box>{title == "YappolaAir Membership" ? free : salePrice}</Box> */}

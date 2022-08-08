@@ -922,7 +922,7 @@ export default function MBY() {
         }}>
           <FormControl my="4" maxW="210" minW="210">
             <FormLabel htmlFor="amount" textAlign="right">
-              Amount to Mint
+            <span style={{color: "purple", fontWeight: "500"}}>Amount to Mint</span>
             </FormLabel>
             <NumberInput step={1} min={1} max={10} onChange={handleChange} allowMouseWheel>
               <NumberInputField  id="amount" value={amount} bg="gray.200" boxShadow="lg" />
@@ -935,7 +935,7 @@ export default function MBY() {
           </FormControl>
           <Button onClick={() => {
             if (isAuthenticated) { _mintEstates(); }
-          }} text={"Claim YappolaAir Membership"} theme={"primary"} />
+          }} text={"Claim YappolaAir Membership"} theme={"translucent"} />
 
         </form>
       </Box>

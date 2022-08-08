@@ -19,7 +19,7 @@ export default function ProductCard({ product, setModalData }) {
       onClick={() => setModalData(product)}
       _hover={{
         bg: "white",
-        color: "teal",
+        color: "purple.300",
         transition: "transform 0.15s ease-in-out",
         transform: "scale3d(1.05, 1.05, 1.05)",
         boxShadow: 'dark-lg',
