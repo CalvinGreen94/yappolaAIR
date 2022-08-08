@@ -49,6 +49,7 @@ export default function ProductCard({ product, setModalData }) {
                     alt={imageAlt}
                     objectfit="cover"
                     layout="fill"
+                    // fill,fixed,intrinsic,responsive,undefined
                   />
         </Box>
         <Box p="6">

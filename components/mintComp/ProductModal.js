@@ -33,7 +33,10 @@ export default function ProductModal({ isOpen, onClose, modalData }) {
                     src={imageUrl}
                     alt={imageAlt}
                     objectfit="cover"
-                    layout="fill"
+                    layout="fixed"
+                    // fill,fixed,intrinsic,responsive,undefined
+                    width={250}
+                    height={250}
                   />
           </GridItem>
           <GridItem rowSpan={2} colSpan={4} boxShadow="inner" pl="4" rounded="2xl" textColor="teal.700" textShadow='0.5px 0.5px gray'>
