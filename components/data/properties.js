@@ -1,13 +1,13 @@
 const properties = [
     {
         key: 1,
-        imageUrl: '/images/yappola.jpg',
+        imageUrl: '/images/lex2.jpg',
         imageAlt: 'Yappola Card',
         // imageUrl: "",
-        title: 'Yappola Air MEMBERSHIP CARD',
-        salePrice: 'Sale: 0.2 ETH',
-        Amenities:'Lex Luger , Waka Flocka Flame, Juicy J',
-        info: "10000 YappolaCoin per membership",
+        title: 'Yappola Air - Lex Luger',
+        salePrice: 'Sale: 0.3 ETH',
+        Amenities:'Event: Lex Luger , Waka Flocka Flame, Juicy J',
+        info: "Rewards: 10000 YappolaCoin per membership",
         href: '/tauros',
         description: (<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>)
     },
@@ -16,12 +16,12 @@ const properties = [
         // imageUrl: 'videos/Estate.mp4',
         imageUrl:  "/images/yappola.jpg",
         imageAlt: 'Estate Animation',
-        title: 'Yappola Air MEMBERSHIP CARD',
+        title: 'Yappola Air - Beach Party',
         // presalePrice: 'Presale: 0.2 ETH',
         salePrice: 'Sale: 0.2 ETH',
-        Amenities:"YappolaAir Beach Party ",
+        Amenities:"Event: YappolaAir Beach Party ",
         // free: 'Initial Sale:.25',
-        info: "5000 YappolaCoin per Membership ",
+        info: "Rewards: 5000 YappolaCoin per Membership ",
         href: '/estates',
         description: (<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>)
 

@@ -55,10 +55,10 @@ export default function ProductCard({ product, setModalData }) {
           <Box fontWeight="semibold" as="h4" lineHeight="tight">
             {title}
           </Box>
-            <Box>{free}</Box>
-            <Box>{presalePrice}</Box>
-            <Box>{salePrice}</Box>
-            <Box>{Amenities}</Box>
+            <Box>{free}</Box><br />
+            <Box>{presalePrice}</Box><br />
+            <Box>{salePrice}</Box><br />
+            <Box>{Amenities}</Box><br />
             <Box>{info}</Box>
         </Box>
       </Box>
