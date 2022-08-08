@@ -1,7 +1,7 @@
 const properties = [
     {
         key: 1,
-        imageUrl: '/images/lex2.jpg',
+        imageUrl: '/images/lex1.jpg',
         imageAlt: 'Yappola Card',
         // imageUrl: "",
         title: 'Yappola Air - Lex Luger',
