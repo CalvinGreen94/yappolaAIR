@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 
 export default function ProductCard({ product, setModalData }) {
-  const { imageUrl, imageAlt,Amenities, title, free, presalePrice, salePrice } = product;
+  const { imageUrl, info,imageAlt,Amenities, title, free, presalePrice, salePrice } = product;
 
   return (
     <Box
@@ -51,6 +51,7 @@ export default function ProductCard({ product, setModalData }) {
             <Box>{presalePrice}</Box>
             <Box>{salePrice}</Box>
             <Box>{Amenities}</Box>
+            <Box>{info}</Box>
         </Box>
       </Box>
     </Box>

@@ -7,7 +7,7 @@ const properties = [
         title: 'Yappola Air MEMBERSHIP CARD',
         salePrice: 'Sale: 0.2 ETH',
         Amenities:'Lex Luger , Waka Flocka Flame, Juicy J',
-        info: "ℹ",
+        info: "10000 YappolaCoin per membership",
         href: '/tauros',
         description: (<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>)
     },
@@ -21,7 +21,7 @@ const properties = [
         salePrice: 'Sale: 0.2 ETH',
         Amenities:"YappolaAir Beach Party ",
         // free: 'Initial Sale:.25',
-        info: "ℹ",
+        info: "5000 YappolaCoin per Membership ",
         href: '/estates',
         description: (<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>)
 
