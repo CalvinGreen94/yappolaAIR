@@ -26,7 +26,7 @@ export default function Home() {
 
       <Heading pb={10} fontSize="3xl" textShadow='0.5px 0.5px white'>
         Welcome To YappolaAir <br /><br />
-        <span style={{color: "black", fontWeight: "200"}}>Taking to the Skies</span>
+        {/* <span style={{color: "black", fontWeight: "200"}}>Taking to the Skies</span> */}
       </Heading>
 
       <Text pt={5}>
