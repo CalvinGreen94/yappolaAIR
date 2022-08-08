@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-
+import Image from "next/image";
 export default function ProductCard({ product, setModalData }) {
   const { imageUrl, info,imageAlt,Amenities, title, free, presalePrice, salePrice } = product;
 
@@ -34,14 +34,22 @@ export default function ProductCard({ product, setModalData }) {
           overflow="hidden"
           roundedTop="lg"
         >
-        <video
+        {/* <video
             autoPlay
             muted
             src={imageUrl}
             alt={imageAlt}
             objectfit="cover"
             layout="fill"
-            />
+            /> */}
+            <Image
+                    // autoPlay
+                    // muted
+                    src={imageUrl}
+                    alt={imageAlt}
+                    objectfit="cover"
+                    layout="fill"
+                  />
         </Box>
         <Box p="6">
           <Box fontWeight="semibold" as="h4" lineHeight="tight">

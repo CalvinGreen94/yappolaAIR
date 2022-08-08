@@ -1,7 +1,7 @@
 const properties = [
     {
         key: 1,
-        imageUrl: '../../public/images/yappola.jpg',
+        imageUrl: '/images/yappola.jpg',
         imageAlt: 'Yappola Card',
         // imageUrl: "",
         title: 'Yappola Air MEMBERSHIP CARD',
@@ -14,7 +14,7 @@ const properties = [
     {
         key: 2,
         // imageUrl: 'videos/Estate.mp4',
-        imageUrl:  "../../public/images/yappola.jpg",
+        imageUrl:  "/images/yappola.jpg",
         imageAlt: 'Estate Animation',
         title: 'Yappola Air MEMBERSHIP CARD',
         // presalePrice: 'Presale: 0.2 ETH',
